@@ -1,0 +1,39 @@
+{
+  "name": "pdf-page-range-parser",
+  "version": "0.1.1",
+  "description": "Parse \"1-3, 5, 8-\" page selections into exact ranges without silently sorting or deduplicating, and reject anything ambiguous.",
+  "type": "module",
+  "license": "MIT",
+  "exports": {
+    ".": "./scripts/ranges.mjs"
+  },
+  "files": [
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/run.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "pdf",
+    "javascript",
+    "esm",
+    "parser",
+    "page-range",
+    "split-pdf",
+    "zero-dependencies",
+    "claude-skills"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kein-chronicle/pdf-page-range-parser.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Kein-chronicle/pdf-page-range-parser/issues"
+  },
+  "homepage": "https://github.com/Kein-chronicle/pdf-page-range-parser#readme"
+}
